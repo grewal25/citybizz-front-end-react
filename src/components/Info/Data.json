@@ -1,0 +1,22 @@
+{
+    "sections" : [
+        {
+            "id": 1,
+            "headline": "Deliver or Pickup your order",
+            "description": "Schedule a home delivery or pickup that works for you.",
+            "img": "./svg/shop.jpg"
+        },
+        {
+            "id": 2,
+            "headline": "Cover your distance with us",
+            "description": "We will help you to cover the longer distance between you and your favourite dish.",
+            "img": "./svg/deli.jpg"
+        },
+        {
+            "id": 3,
+            "headline": "CityBizz App",
+            "description": "App will give you access to real time updates about your order.",
+            "img": "./svg/mobile.jpg"
+        }
+    ]
+}

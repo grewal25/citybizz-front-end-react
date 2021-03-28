@@ -1,0 +1,19 @@
+{
+    "services": [
+        {
+            "name": "Deliver with CityBizz",
+            "img": "./svg/delivery.svg",
+            "description": "Earn reliable money - working anytime and anywhere"
+        },
+        {
+            "name": "Partner with CityBizz",
+            "img": "./svg/partner.svg",
+            "description": "Grow your business and open the door for thousands other customers."
+        },
+        {
+            "name": "CityBizz App (Beta)",
+            "img": "./svg/app.svg",
+            "description": "There's more to love in the App."
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+.service_container {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_list {
+    width: 300px;
+    height: 300px;
+    margin: 110px 0;
+}
+
+.service_img {
+    width: 200px;
+    height: 200px;
+}
+
+.service_name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+.service_description {
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .service {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        margin-right: 50px;
+        margin-top: 2.0rem;
+    }
+
+    .service_list {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        margin-bottom: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        text-align: left;
+        justify-content: center;
+        min-width: 250px;
+    }
+
+    .service_name {
+        font-size: 1.4rem;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+
+    .service_description {
+        font-size: 0.85rem;
+    }
+
+    .service_img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .service_list {
+        max-height: 230px;
+    }
+    .service_img {
+        width: 150px;
+        height: 150px;
+    }
+    .service-text {
+        margin-left: 15px;
+        min-width: 220px;
+    }
+    .service_name {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .service_img {
+        width: 150px;
+        height: 150px;
+        margin: 0;
+    }
+    .service-text {
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+    .service_name {
+        font-size: 1.1rem;
+        margin-bottom: 0px;
+    }
+    .service_description {
+        font-size: 0.85rem;
+        margin-top: 0px;
+
+    }
+    .service_list {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+    
+}

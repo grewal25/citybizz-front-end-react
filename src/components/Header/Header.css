@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container, 
+.container-2 {
+    position: relative; 
+    padding: 30rem 0;
+    font-family: 'Work Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-image: url('../../img/vege.jpg');
+}
+
+.container-2 {
+    background-image: url('../../img/sushi.jpg');
+}
+
+.header-name {
+    position: absolute;
+    top: 1.2rem;
+    left: 3rem;
+    font-size: 1.9rem;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    color: #14e601;
+}
+
+.header-name span {
+    color: #f7f303;
+    font-style: italic;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1.75rem; 
+    right: 3rem;
+}
+
+.header-link {
+    font-size: bolder;
+    text-decoration: none;
+    margin-left: 1.4rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #14e601;
+}
+
+.header-link:hover {
+    color: #f7f303;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-name {
+        left: 1rem;
+    }
+    .header-icons {
+        right: 1rem;
+    };
+}
+
+@media (max-width: 550px) {
+    .header-name {
+        left: .5rem;
+        font-size: 1.6rem;
+        top: 1.35rem;
+    }
+    .header-icons {
+        right: 0.5rem;
+    }
+    .header-link {
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+}
